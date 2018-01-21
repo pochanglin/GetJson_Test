@@ -111,5 +111,8 @@ public class MainActivity extends AppCompatActivity {
             textView.setText(sb2.toString());
             linearLayout.addView(textView);
         }
+        public void dance(String dancerName) {
+            dancerName = "popping pete";
+        }
     }
 }
